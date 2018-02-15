@@ -44,11 +44,14 @@
     <Compile Include="Application.cs" />
     <Compile Include="ECS.cs" />
     <Compile Include="Heater.cs" />
+    <Compile Include="IHeater.cs" />
+    <Compile Include="ITemp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TempSensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
